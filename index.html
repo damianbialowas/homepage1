@@ -5,42 +5,55 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hompage</title>
+  <link rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <main>
-    <header>
-      <h1>Maciek Korsan - Strona Domowa </h1>
+  <nav class="navigation">
+    <ul class="navigation_list">
+      <li class="navigation_item"><a class="navigation_link" href="index.html">Strona główna</a></li>
+      <li class="navigation_item"><a class="navigation_link" href="HTML.html">HTML</a></li>
+      <li class="navigation_item"><a class="navigation_link" href="css.html">CSS</a></li>
+    </ul>
+  </nav>
+  <main class="main">
+    <header class="header">
+      <h1 class="header_title">Damian Białowąs - Relacja ze szkolenie </h1>
     </header>
-    <section>
-      <h2>Kim jestem</h2>
-      <p>
-        Hej! Na co dzień uczę wspaniałych ludzi tajnej sztuki frontendu i pracuję w firmie o cięko zapisywalnej
-        nazwie: EYEDEA. poza tym bardzo lubię robić zdjęcia i latać dronem. Witam Cię na mojej stronei domowej, mam
+    <section class="introduction">
+      <h2 class="introduction_header">Kim jestem</h2>
+      <p class="introduction_content">
+        Hej! Na co dzień pracuję w firmie BROKELMANN jako konstruktor-kreślarz. Poza tym bardzo lubię "bawić" się
+        muzyką, to znaczy grać na kla wiszach oraz robić fajne bity do "szuflady". Witam Cię na mojej pierwszej stronie
+        z
+        relacji ze szkolenie WTF Co ten frontend z Maćkiem Korsanem, mam
         nadzieję, ze znajdziesz tu trochę przydatnych rzeczy.
       </p>
     </section>
     <section>
-      <h2>Notatki z WTF: Co ten frontend</h2>
-      <article>
-        <h3>Jak stworzyć prawidłowego HTML-a</h3>
-        <p>Tworzenie zgodnego ze standarrdami HTML-a to styka którą do perfekcji opannowało niewielu. Jeśli chcesz stać
-          się częścią tej grupy, misisz wykazać się otwartą głową i duzą ilością wolnego czasu...
+      <h2 class="heding">Notatki z WTF: Co ten frontend</h2>
+      <article class="articla">
+        <h3 class="heding-title">Pierwszy tydzień</h3>
+
+        <p>
+          W pierwszym tygodniu Maciek rzywitał się i przedstawił to co będziemy robić w tym kursie. W kolejnym odcinku
+          Maciek wyjaśnił czym jest frontend.
+          Następnie przeszliśmy przez konfigurakję narzędzi potrzebnych w szkoleniu, oraz konfiguracji systemowych. W
+          kolejnej części dowiedziałem się jak wygląda ścieżka rozwoju frontenddevelopera. W ostatniej części Maciek
+          wyjaśnia co to są warstwy strony. Oczywiście na koniec każdego modułu zawsze jest zadanie domowe😀.
         </p>
       </article>
       <article>
-        <h3>Czy nagrywamie szkolenia to prosta sprawa</h3>
-        <p>Na początku myślałem ze całe szkolenie nagram w 2 tygodnie (o ja naiwny). Samo planowanie rzeczy zajęło duzo
-          więcej! Na szczęście dzięki wsparciu bliskich i sporej motywacji udało mi się wwytworzyć schemat nagrywania,
-          który kazdego dnia przybliza mnie do skończenia pracy.
-        </p>
+        <h3 class="heding-title">Drugi tydzień</h3>
+
       </article>
     </section>
     <footer>
       <p>Strona domowa Maćka Korsana, wszystkie treści są efektem tworzenia szkolenia WTF: Co ten frontend.</p>
     </footer>
   </main>
+  <script src="main.js"></script>
 </body>
 
 </html>

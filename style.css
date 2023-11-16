@@ -1,20 +1,63 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
 body {
-    background: #cbc4c4;
+	background: #cbc4c4;
+}
+.navigation {
+	background-color: #bdd3ea;
+}
+
+.navigation_item {
+	box-sizing: border-box;
+	display: inline-block;
+	margin: 20px;
+	border: 2px solid rgba(37, 39, 40, 0.983);
+	border-radius: 5px;
+	list-style: none;
+	background-color: rgb(47, 51, 51);
+}
+
+.navigation_link {
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: arial;
+	color: #bdd3ea;
+}
+
+.navigation_link:hover {
+	background-color: rgb(186, 151, 151);
+}
+
+.header {
+	height: 20vh;
+	background-image: url(ball.jpg);
+	background-size: cover;
+	background-position: center;
 }
 
 h1 {
-    color: royalblue;
+	color: rgb(237, 200, 200);
 }
 
 h2 {
-    color: #1460AA;
+	color: #1460aa;
 }
 
 section {
-    background: #679dd7;
+	background: #679dd7;
 }
 
 footer {
-    background: black;
-    color: aliceblue;
+	background: black;
+	color: aliceblue;
 }
